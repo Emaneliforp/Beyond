@@ -1,0 +1,39 @@
+#con canvas{
+    position: absolute;
+    top:0;
+    z-index: 2;
+}
+.confettiHoly{
+    position: absolute;
+    top:-500px;
+    height: 1036px;
+    width:300px;
+}
+.confettiHoly img{
+    z-index: 10;
+    width: 200px;
+    margin-left: 50px;
+    animation-duration: 4s;
+    animation-name: holy;
+}
+@keyframes holy{
+    from{
+        margin-top: 990px;
+    }
+    20%{
+        margin-top: 700px;
+        transform: rotate(720deg);
+    }
+    40%{
+        margin-top: 700px;
+        transform: rotate(720deg);
+    }
+    90%{
+        margin-top: 300px;
+        transform: rotate(720deg);
+    }
+    to{
+        margin-top: 0px;
+        transform: rotate(720deg);
+    }
+}
