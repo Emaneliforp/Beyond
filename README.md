@@ -4,8 +4,9 @@ Beyond is a task management app with celebration feature that helps you stay mot
 ## How to Install
 ```
 1. Download the folder
-2. Go to chrome://extensions/ and turn on Developer mode
-3. Load unpacked the folder
+2. Go to chrome://extensions/
+3. Turn on Developer mode
+4. Load unpacked the folder
 ```
 ## Celebration Feature
 The extension comes with the Beyond logo for celebration in every 3 completed tasks.
